@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <!--LAUNCH RVIZ NODE -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtle_vis)/launch/rvizConfigs/TIAGO.rviz"/>
+
+  <!--#>>>>TODO:LAUNCH TURTLE VISUALIZATION NODE-->
+  <!--<node name="turtle_visualization" pkg="turtle_vis" type="turtle_visualization" output="screen"/>-->
+  <!--#>>>>TODO:LAUNCH TURTLE CONTROL NODE. AS PART OF THIS NODE LOAD THE YAML FILE WITH THE GAIN PARAMETERS (SEE rvizConfigs/turtle_gains.yaml)-->
+  
+  <node name="turtle_control" pkg="turtle_vis" type="turtle_control" output="screen">
+    <rosparam command="load" file="$(find turtle_vis)/launch/rvizConfigs/turtle_gains.yaml"/>
+  </node>
+
+  <!--LAUNCH TF NODE -->
+  <node pkg="tf" type="static_transform_publisher" name="static_transform" output="screen" args="1 0 0 0 0 0 1 /world /map 10"/>
+ 
+ 
+</launch>
