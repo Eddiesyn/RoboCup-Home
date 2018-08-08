@@ -1,0 +1,8 @@
+prefix=/home/atHomeSS18/God-Watcher/workspace/Finalproject/install
+
+Name: god_states_machine
+Description: Description of god_states_machine
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/atHomeSS18/God-Watcher/workspace/Finalproject/install/lib 
+Requires: 

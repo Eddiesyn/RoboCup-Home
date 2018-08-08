@@ -1,0 +1,2 @@
+test_speech:tum_alle_athome_speech/tum_alle_athome_speech_hotword:tum_alle_athome_speech/tum_alle_athome_speech_msgs:tum_alle_athome_speech/tum_alle_athome_speech_nlp:tum_alle_athome_speech/tum_alle_athome_speech_recognition:tum_alle_athome_speech/tum_alle_athome_speech_tts:tum_alle_common_msgs
+-DCATKIN_DEVEL_PREFIX=/home/atHomeSS18/God-Watcher/workspace/speech/devel -DCMAKE_INSTALL_PREFIX=/home/atHomeSS18/God-Watcher/workspace/speech/install -G Unix Makefiles

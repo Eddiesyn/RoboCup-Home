@@ -1,0 +1,8 @@
+prefix=/home/atHomeSS18/God-Watcher/workspace/speech/install
+
+Name: test_speech
+Description: Description of test_speech
+Version: 0.0.0
+Cflags: -I/home/atHomeSS18/God-Watcher/workspace/speech/install/include
+Libs: -L/home/atHomeSS18/God-Watcher/workspace/speech/install/lib 
+Requires: roscpp std_msgs

@@ -1,0 +1,2 @@
+darknet_ros-master/darknet_ros:darknet_ros-master/darknet_ros_msgs
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/atHomeSS18/God-Watcher/workspace/ref/devel -DCMAKE_INSTALL_PREFIX=/home/atHomeSS18/God-Watcher/workspace/ref/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+god_watcher:manipulation:navigation:perception_msgs:perception_package
+-DCATKIN_DEVEL_PREFIX=/home/atHomeSS18/God-Watcher/workspace/tutorial5/devel -DCMAKE_INSTALL_PREFIX=/home/atHomeSS18/God-Watcher/workspace/tutorial5/install -G Unix Makefiles

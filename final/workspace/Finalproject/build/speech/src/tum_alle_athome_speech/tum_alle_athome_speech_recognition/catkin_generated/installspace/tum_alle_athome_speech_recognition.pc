@@ -1,0 +1,8 @@
+prefix=/home/atHomeSS18/God-Watcher/workspace/Finalproject/install
+
+Name: tum_alle_athome_speech_recognition
+Description: Description of tum_alle_athome_speech_recognition
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/atHomeSS18/God-Watcher/workspace/Finalproject/install/lib 
+Requires: 

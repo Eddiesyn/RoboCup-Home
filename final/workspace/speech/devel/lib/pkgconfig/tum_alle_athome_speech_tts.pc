@@ -1,0 +1,8 @@
+prefix=/home/atHomeSS18/God-Watcher/workspace/speech/devel
+
+Name: tum_alle_athome_speech_tts
+Description: Description of tum_alle_athome_speech_tts
+Version: 0.0.0
+Cflags: -I/home/atHomeSS18/God-Watcher/workspace/speech/src/tum_alle_athome_speech/tum_alle_athome_speech_tts/include
+Libs: -L/home/atHomeSS18/God-Watcher/workspace/speech/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime

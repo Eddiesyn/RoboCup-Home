@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/atHomeSS18/ros/workspace/roboCupHome_tutorial_YinanShi/devel/lib;/opt/ros/kinetic/lib")
